@@ -8,7 +8,7 @@ public class Main {
         System.out.println(amountInDollars + " USD = " + amountInEuros + " EUR");
 
         Dinars dinars = new Dinars();
-        double amountInDinars = dollars.convertTo(amountInDollars, dinars);
+        double amountInDinars = dollars.convertTo(amountInDollars, dinars);jjjjj
         System.out.println(amountInDollars + " USD = " + amountInDinars + " DZD");
     }
 }
